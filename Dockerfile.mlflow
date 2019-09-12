@@ -1,0 +1,5 @@
+FROM python:3-stretch
+
+RUN pip install mlflow==1.2.0
+
+WORKDIR /home/jovyan
